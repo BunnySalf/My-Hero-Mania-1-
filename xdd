@@ -1,5 +1,5 @@
 
-repeat wait() until game.Loaded
+repeat wait(5) until game.Loaded
 
 
 
@@ -702,7 +702,7 @@ game:GetService("ReplicatedStorage").RemoteFunctions.MainRemoteFunction:InvokeSe
 -- getgenv().id = "502047145365471242"
 syn.queue_on_teleport([[
     repeat wait(5) until game.Loaded 
-    wait()
+    wait(5)
 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnySalf/Pls-Don-t-Crack-me-Pls/main/Not_Full"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnySalf/My-Hero-Mania-1-/main/xdd"))()
 ]])
